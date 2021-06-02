@@ -117,23 +117,19 @@
 @media only screen and (min-width:500px) and (max-width:525px){
     .card{
         width:300px;
-        
     }
 
     .card-group{
-        /* margin-top:2px !important; */
         margin-left:30px;
     }
 
 
     .topic1{
         position: relative;
-        /* left:52px; */
         right:33px;
     } 
 
     .topic{
-        /* margin-left: 79px !important; */
         margin-right: 110px !important;
         text-align: center !important;
     }
