@@ -1,0 +1,491 @@
+/* FOR RESPONSIVENESS OF HOME PAGES */
+@media only screen and (max-width:1309px){
+    .btn-groups a{
+        text-decoration: none;
+        color: white;
+        font-size: 0.8rem;
+        padding: 4px;
+    }
+    .btn-groups{
+        align-items: center;
+        height:40px;
+    }
+    .card{
+        text-align: center !important;
+    }
+    
+}
+
+@media only screen and (max-width:991px){
+    .navbar-nav{
+        display: block;
+    }
+
+    .form-inline{
+        position: absolute;
+        left:10px;
+        top:420px;
+    }
+
+    .navbar-brand{
+        display: block;
+        max-width: 100px;
+        margin: auto;
+    }
+
+    .navbar-toggler-icon{
+        position: relative;
+        right:7px;
+    }
+
+    .navbar-toggler{
+        width:40px !important;
+        height:40px !important;
+        outline: none !important;
+    }
+
+        
+    .input{
+        display: flex;
+        position: absolute;
+        left:13px;
+        top:430px; 
+        width:240px;
+    }
+
+    .card{
+        text-align: center !important;
+    }
+
+}
+
+
+@media only screen and (max-width:992px){
+    .btn-groups{
+        display: none;
+    }
+
+    .card{
+        text-align: center !important;
+    }
+
+    .breadcrumb{
+        margin-top: 4px !important;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .topic1{
+        margin-left: 150px !important;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width:576px) and (max-width:878px){
+    .card{
+        width:300px;
+        margin: 12px !important;
+    }
+
+    .card-group{
+        margin-top:25px !important;
+    }
+
+
+    .topic1{
+        position: relative;
+        /* left:22px; */
+    } 
+
+    .topic{
+        /* margin-left: 79px !important; */
+        margin-right: 110px !important;
+        text-align: center !important;
+    }
+
+    .h1{
+        text-align: center !important;
+    }
+}
+
+/* ///////////// */
+
+
+@media only screen and (min-width:500px) and (max-width:525px){
+    .card{
+        width:300px;
+        
+    }
+
+    .card-group{
+        /* margin-top:2px !important; */
+        margin-left:30px;
+    }
+
+
+    .topic1{
+        position: relative;
+        /* left:52px; */
+        right:33px;
+    } 
+
+    .topic{
+        /* margin-left: 79px !important; */
+        margin-right: 110px !important;
+        text-align: center !important;
+    }
+
+    .h1{
+        text-align: center !important;
+    }
+}
+
+
+
+@media only screen and (min-width:461px) and (max-width:499px){
+    .topic1{
+        position: relative;
+        left:26px;
+        
+    }
+
+    .card-group{
+        position: relative;
+        right:-13px;
+    }
+    .card{
+        width:300px !important;
+    }
+
+    .topic{
+        margin-left: 100px !important;
+    }
+    
+}
+
+
+@media only screen and (min-width:430px) and (max-width: 460px) {
+	.card{
+        width:250px;
+        position: relative;
+        left:2px;
+        text-align: center;
+    }
+
+    .card-group{
+        position: relative;
+        right:-10px;
+    }
+
+    .topic{
+        margin-left: 52px !important;
+        text-align: center !important;
+    }
+
+    .topic1{
+        margin-left: 42px !important;
+    }
+
+    .h1{
+        font-size: 60px !important;
+        text-align: center !important;
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width:404px) and (max-width: 429px) {
+
+    .card{
+        width:250px;
+    }
+
+	
+    .card-group{
+        position: relative;
+        /* right:2px; */
+    }
+
+    .topic{
+        margin-left: 52px !important;
+        text-align: center !important;
+    }
+
+    .topic1{
+        margin-left: 42px !important;
+    }
+
+    .h1{
+        font-size: 60px !important;
+        text-align: center !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width:403px){
+    .card{
+        width:250px;
+        position: relative;
+        left:2px;
+        text-align:  center !important;
+    }
+
+    .card-group{
+        position: relative;
+        right:17px;
+    }
+
+    .topic{
+        margin-left: 49px !important;
+        text-align: center !important;
+    }
+
+    .topic1{
+        margin-left: 50px !important;
+    }
+
+    .h1{
+        font-size: 53px !important;
+        text-align: center !important;
+    }
+
+}
+
+
+
+@media only screen and (max-width:370px){
+    
+    .h1{
+        font-size: 50px !important;
+        text-align: center !important;
+    }
+
+    .topic1{
+        margin-left: 26px !important;
+    }
+
+    .card-group{
+        position: relative;
+        right:27px;
+    }
+    .card{
+        text-align: center !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width:363px){
+    .card-group{
+        position: relative;
+        right:26px;
+    }
+
+    .card{
+        text-align: center !important;
+    }
+
+    .topic1{
+        margin-left: 48px !important;
+    }
+
+    .topic{
+        text-align: center !important;
+       
+    }
+
+    .h1{
+        font-size: 50px !important;
+        text-align: center !important;
+    }
+}
+
+
+@media only screen and (max-width:334px){
+
+    .card-group{
+        position: relative;
+        right:47px;
+    }
+
+    .card{
+        text-align: center !important;
+    }
+
+    .h1{
+        font-size:3.4rem;
+        text-align: center !important;
+    }
+
+
+    .topic1{
+        
+        margin-left: 34px !important;
+    }
+
+    .topic{
+        margin-left: 41px !important;
+    }
+
+
+}
+
+
+@media only screen and (max-width:317px){
+
+    .card-group{
+        position: relative;
+        right:103px;
+        display: block !important;
+        margin-left: 50px !important;
+    }
+
+    .card{
+        text-align: center !important;
+    }
+
+    .h1{
+        font-size:3.2rem;
+        text-align: center !important;
+    }
+
+    .topic{
+        margin-left: 32px !important;
+        font-size: 27px;
+        text-align: center !important;
+    }
+
+    .topic1{
+        margin-left: 11px !important;
+    }
+
+    .h1{
+        font-size:47px !important;
+    }
+}
+/* ///////////////// */
+
+
+@media only screen and (min-width:303px) and (max-width:316px){
+
+    .card-group{
+        position: relative;
+        right:103px;
+        display: block !important;
+        margin-left: 50px !important;
+    }
+
+    .card{
+        text-align: center !important;
+    }
+
+    .h1{
+        font-size:3.2rem;
+        text-align: center !important;
+    }
+
+    .topic{
+        margin-left: 32px !important;
+        font-size: 27px;
+        text-align: center !important;
+    }
+
+    .topic1{
+        margin-left: 27px !important;
+    }
+
+    .h1{
+        font-size:47px !important;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width:290px) and (max-width:302px){
+    /* .topic{
+        font-size: 23px !important;
+        text-align: center !important;
+    } */
+
+
+    .card-group{
+        display: block !important;
+        margin-left: 45px !important;
+        
+    }
+
+    .topic1{
+        margin-left:40px !important;
+        margin-top: 15px !important;
+        
+    }
+
+    .topic4{
+        margin-left:35px !important;
+    }
+
+    .topic6{
+        margin-left:42px !important;
+    }
+
+    .topic3{
+        margin-left:42px !important;
+    }
+
+    .h1{
+        font-size:42px !important;
+        margin-top: 30px !important;
+        text-align: center !important;
+    }
+}
+
+
+
+@media only screen and (max-width:289px){
+    /* .topic{
+        font-size: 23px !important;
+        text-align: center !important;
+    } */
+
+
+    .card-group{
+        display: block !important;
+        margin-left: 38px !important;
+        
+    }
+
+    .topic1{
+        margin-left:40px !important;
+        margin-top: 15px !important;
+        
+    }
+
+    .topic4{
+        margin-left:35px !important;
+    }
+
+    .topic6{
+        margin-left:42px !important;
+    }
+
+    .topic3{
+        margin-left:42px !important;
+    }
+
+    .h1{
+        font-size:42px !important;
+        margin-top: 30px !important;
+        text-align: center !important;
+    }
+}

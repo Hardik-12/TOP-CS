@@ -1,0 +1,388 @@
+/* FOR RESPONSIVENESS OF ALL PAGES */
+@media only screen and (max-width:768px){
+    .h1{
+        font-size:48px;
+    }
+}
+
+@media only screen and (max-width:529px){
+    .h1{
+        text-align: center !important;
+    }
+
+    .h4{
+        text-align: center !important;
+    }
+
+    
+    .websites h1{
+        text-align: center !important;
+    }
+
+    .websites p{
+        /* text-align: center !important; */
+        display: inline-block;
+        margin-top:9px;
+    }
+
+    .websites p a{
+        text-align: center !important;
+    }
+
+        
+    .video-container {
+        overflow: hidden;
+        position: relative;
+       
+        width:300px;
+    }
+
+    .video-container::after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+
+    .video-container iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media only screen and (max-width:433px){
+    .container-fluid{
+        position: absolute !important;
+        right:0;
+    }
+    .h1{
+        
+        font-size: 32px !important;
+    }
+
+    .h4{
+        text-align: center !important;
+    }
+
+    
+    .websites h1{
+        position: relative;
+        right:10px;
+        font-size: 32px !important;
+    }
+
+    .websites p{
+        position: relative;
+        left:24px;
+        display: inline-block;
+    }
+
+    .websites p a{
+        text-align: center !important;
+    }
+
+    .title_heading{
+        text-align: center !important;
+        position: relative;
+        right:20px;
+    }
+
+        
+    .video-container {
+        overflow: hidden;
+        position: relative;
+        left:78px;
+        width:260px;
+    }
+
+    .video-container::after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+
+    .video-container iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:400px){
+    
+    .h1{
+        font-size: 32px !important;
+    }
+
+    .h4{
+        text-align: center !important;
+    }
+
+    
+    .websites h1{
+        position: relative;
+        right:10px;
+        font-size: 32px !important;
+    }
+
+    .websites p{
+        position: relative;
+        left:2px;
+        display: inline-block;
+    }
+
+    .websites p a{
+        text-align: center !important;
+    }
+
+    .title_heading{
+        text-align: center !important;
+        position: relative;
+        right:20px;
+    }
+
+        
+    .video-container {
+        overflow: hidden;
+        position: relative;
+        left:52px;
+        width:260px;
+    }
+
+    .video-container::after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+
+    .video-container iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width:352px) and (max-width:360px){
+    .h1{
+        text-align: center !important;
+        font-size: 32px !important;
+    }
+
+    .h4{
+        text-align: center !important;
+    }
+
+    
+    .websites h1{
+        text-align: center !important;
+        font-size: 32px !important;
+    }
+
+    .websites p{
+        position: relative;
+        left:0px;
+        
+    }
+
+    .title_heading{
+        position: relative;
+        left:-25px;
+    }
+        
+    .video-container {
+        overflow: hidden;
+        position: relative;
+        left:63px;
+        width:230px;
+    }
+
+    .video-container::after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+
+    .video-container iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+
+@media only screen and (min-width:326px) and (max-width:351px){
+    .h1{
+        text-align: center !important;
+        font-size: 32px !important;
+    }
+
+    .h4{
+        text-align: center !important;
+    }
+
+    
+    .websites h1{
+        text-align: center !important;
+        font-size: 32px !important;
+    }
+
+    .websites p{
+        position: relative;
+        left:-10px;
+    }
+
+    
+    
+
+    .title_heading{
+        position: relative;
+        left:-20px;
+    }
+        
+    .video-container {
+        overflow: hidden;
+        position: relative;
+        left:50px;
+        width:230px;
+    }
+
+    .video-container::after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+
+    .video-container iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+@media only screen and (max-width:324px){
+    .h1{
+        text-align: center !important;
+        position: relative;
+        left:-9px;
+        font-size: 34px !important;
+    }
+
+    .h4{
+        text-align: center !important;
+    }
+
+    
+    .websites h1{
+        position: relative;
+        left:-20px;
+        font-size: 34px !important;
+    }
+    .websites p{
+        text-align: center !important;
+        position: relative;
+        left:-40px;
+    }
+    
+    .websites p a{
+        text-align: center !important;
+        position: relative;
+        /* right:72px; */
+    }
+
+    .title_heading{
+        position: relative;
+        left:-28px;
+    }
+        
+    .video-container {
+        overflow: hidden;
+        position: relative;
+        left:40px;
+        width:230px;
+    }
+
+    .video-container::after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+
+    .video-container iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+@media only screen and (max-width:297px){
+    .h1{
+        text-align: center !important;
+        font-size: 30px !important;
+    }
+
+    .h4{
+        text-align: center !important;
+    }
+
+    .title_heading{
+        position: relative;
+        left:-20px;
+    }
+    
+    .websites h1{
+        text-align: center !important;
+        font-size: 30px !important;
+    }
+    .websites p{
+        text-align: center !important;
+        position: relative;
+        right:27px;
+    }
+    
+    .websites p a{
+        text-align: center !important;
+        position: relative;
+        right:6px;
+    }
+
+    .title_heading{
+        position: relative;
+        right:20px;
+    }
+        
+    .video-container {
+        overflow: hidden;
+        position: relative;
+        left:26px;
+        width:230px;
+    }
+
+    .video-container::after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+
+    .video-container iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
