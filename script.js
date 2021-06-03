@@ -6,6 +6,10 @@ const input = document.querySelector('.input');
 const toggler = document.querySelector('.navbar-toggler-icon');
 const nav_toggler = document.querySelector('.navbar-toggler');
 
+window.addEventListener('DOMContentLoaded',()=>{
+  window.scrollTo(0,0);
+})
+
 
 var cnt = 0;
 toggler.addEventListener('click',()=>{
@@ -54,10 +58,6 @@ function goToTop() {
 function goToBottom() {
   window.scrollTo(0, document.body.scrollHeight);
 }
-
-$(window).on('beforeunload', function() {
-  $(window).scrollTop(0);
-});
 
 icon.addEventListener('click', goToTop());
 
